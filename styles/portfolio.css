@@ -13,6 +13,7 @@ body {
 .text-primary{
     color: #FD6E0A;
 }
+/* primary button */
 .btn-primary{
     border-radius: 5px;
     background-color: #FD6E0A;
@@ -28,6 +29,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0 150px;
 }
 .nav-title{
     font-size: 45px;
@@ -48,6 +50,17 @@ nav a {
     text-decoration: none;
     color: #474747;
 }
+/* header related style */
+.head{
+    background-color: #FFF8F3;
+}
+.banner{
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-content: center;
+}
+.banner .profile-pic {
+    width: 500px ;
+}
 
-/* primary button */
 
