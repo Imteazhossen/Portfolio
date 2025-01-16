@@ -79,10 +79,10 @@ nav a {
     justify-content: space-between;
 }
 .banner-content {
-    width: 500px;
+    width: 100%;
 }
 .banner .profile-pic {
-    width: 500px ;
+    width: 100% ;
     margin-top: 73px;
 }
 .banner-greeting {
@@ -214,6 +214,9 @@ main{
      }
      nav> ul > li{
         margin-top: 15px;
+     }
+     .head {
+        background-image: none;
      }
 }
 
