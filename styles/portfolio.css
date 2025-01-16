@@ -69,8 +69,8 @@ nav a {
     background-color: #FFF8F3;
     background-image: url('../images/header_bg.png') , url('../images/developer.png');
     background-repeat: no-repeat;
-    
     background-position: right bottom, top left;
+    height: 70%;
 }
 .banner{
     padding: 30px 30px 0px 150px;
@@ -83,6 +83,7 @@ nav a {
 }
 .banner .profile-pic {
     width: 500px ;
+    margin-top: 73px;
 }
 .banner-greeting {
     font-size: 45px;
@@ -119,7 +120,7 @@ main{
     gap: 25px;
 }
 #what-i-do-discription {
-    padding: 30px 150px;
+    padding: 10px 15px;
     text-align: center;
 }
 .skill {
@@ -130,6 +131,9 @@ main{
     
 }
 /* resume related style */
+.resume-column{
+    padding: 30px;
+}
 .resume-column-title {
     color: #474747;
     font-size: 30px;
@@ -187,6 +191,30 @@ main{
      color: white;
     
 }
-/* about section style */
+/* media queary section  */
+.hide {
+    display: none;
+}
+@media screen and (max-width:576px) {
+    .skills-container, .resume-container, footer, .banner, nav, nav>ul{
+        flex-direction: column;
+    }
+    footer{
+        padding: 20px;
+    }
+    .banner{
+        padding-left: 20px;
+    }
+    .footer-column {
+        width: 100%;
+     }
+     .contact input[type="text"], .contact input[type="email"] ,
+     textarea {
+        width: calc(100% - 80px);
+     }
+     nav> ul > li{
+        margin-top: 15px;
+     }
+}
 
 
